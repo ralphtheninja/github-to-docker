@@ -13,7 +13,8 @@ var argv = minimist(process.argv, {
     version: 'v'
   },
   default: {
-    cache: true
+    cache: true,
+    ref: 'master'
   }
 })
 
@@ -25,7 +26,9 @@ if (argv.version) {
 if (argv.help) {
   console.error(
     'Usage: github-to-docker repo [options]\n\n' +
-    '  --version,     -v\n'
+    '  --ref,          git ref (default: master)\n' +
+    '  --tag           tag for the resulting docker image\n' +
+    '  --version, -v\n'
   )
   process.exit(1)
 }
@@ -40,7 +43,7 @@ if (!repo) {
 const opts = {
   github: {
     repo: repo,
-    ref: argv.ref || 'master'
+    ref: argv.ref
   },
   docker: { opts: {} }
 }
