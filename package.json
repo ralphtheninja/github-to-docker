@@ -13,6 +13,9 @@
     "devops",
     "stream"
   ],
+  "bin": {
+    "github-to-docker": "cli.js"
+  },
   "author": "lms <ralphtheninja@riseup.net>",
   "repository": {
     "type": "git",
@@ -27,6 +30,7 @@
     "docker-build": "^2.2.0",
     "github-archive-stream": "^1.0.0",
     "gunzip-maybe": "^1.3.1",
+    "minimist": "^1.2.0",
     "tar-stream": "^1.5.1"
   }
 }
