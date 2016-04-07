@@ -15,12 +15,13 @@ function githubToDocker (opts) {
 
   const docker = opts.docker || {}
   const tag = docker.tag || github.repo + ':' + github.ref
+  const dockerOpts = docker.opts
 
   debug('github params %j', github)
-  debug('docker params %s %j', tag, docker)
+  debug('docker params %s %j', tag, dockerOpts)
 
   const source = archive(github)
-  const sink = build(tag, docker)
+  const sink = build(tag, dockerOpts)
 
   const extract = tar.extract()
   const pack = tar.pack()
