@@ -2,6 +2,10 @@
 
 Stream tarballs directly from GitHub to docker without touching the file system.
 
+```
+$ npm i github-to-docker -S
+```
+
 [![build status](http://img.shields.io/travis/ralphtheninja/github-to-docker.svg?style=flat)](http://travis-ci.org/ralphtheninja/github-to-docker)
 
 ## Usage
@@ -15,6 +19,27 @@ require('github-to-docker')('ipfs/go-ipfs').pipe(process.stdout)
 
 ```
 $ node ipfs.js
+```
+
+## CLI
+
+```
+$ npm i github-to-docker -g
+$ github-to-docker ipfs/go-ipfs
+Step 1 : FROM alpine:3.3
+---> d7a513a663c1
+Step 2 : MAINTAINER Lars Gierth <lgierth@ipfs.io>
+---> Using cache
+---> f6eaf10d37c6
+```
+
+```
+$ github-to-docker --help
+Usage: github-to-docker repo [options]
+
+--ref,          git ref (default: master)
+--tag           tag for the resulting docker image
+--version, -v
 ```
 
 ## API
