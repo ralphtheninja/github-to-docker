@@ -1,5 +1,7 @@
 # github-to-docker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ralphtheninja/github-to-docker.svg)](https://greenkeeper.io/)
+
 Stream tarballs directly from GitHub to docker without touching the file system.
 
 ```
