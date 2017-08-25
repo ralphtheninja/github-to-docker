@@ -1,14 +1,16 @@
 # github-to-docker
 
+> Stream tarballs directly from GitHub to docker without touching the file system.
+
+[![build status](http://img.shields.io/travis/ralphtheninja/github-to-docker.svg?style=flat)](http://travis-ci.org/ralphtheninja/github-to-docker)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Greenkeeper badge](https://badges.greenkeeper.io/ralphtheninja/github-to-docker.svg)](https://greenkeeper.io/)
 
-Stream tarballs directly from GitHub to docker without touching the file system.
+## Install
 
 ```
 $ npm i github-to-docker -S
 ```
-
-[![build status](http://img.shields.io/travis/ralphtheninja/github-to-docker.svg?style=flat)](http://travis-ci.org/ralphtheninja/github-to-docker)
 
 ## Usage
 
