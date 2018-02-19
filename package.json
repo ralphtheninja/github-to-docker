@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^11.0.0"
   },
   "dependencies": {
     "debug": "^3.0.0",
