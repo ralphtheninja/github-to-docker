@@ -25,6 +25,9 @@
   "devDependencies": {
     "standard": "^11.0.0"
   },
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "debug": "^3.0.0",
     "docker-build": "^2.2.0",

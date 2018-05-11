@@ -2,9 +2,10 @@
 
 > Stream tarballs directly from GitHub to docker without touching the file system.
 
+[![npm](https://img.shields.io/npm/v/github-to-docker.svg)](https://www.npmjs.com/package/github-to-docker)
+![Node version](https://img.shields.io/node/v/github-to-docker.svg)
 [![build status](http://img.shields.io/travis/ralphtheninja/github-to-docker.svg?style=flat)](http://travis-ci.org/ralphtheninja/github-to-docker)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ralphtheninja/github-to-docker.svg)](https://greenkeeper.io/)
 
 ## Install
 
