@@ -34,6 +34,6 @@
     "github-archive-stream": "^3.0.0",
     "gunzip-maybe": "^1.3.1",
     "minimist": "^1.2.0",
-    "tar-stream": "^1.5.1"
+    "tar-stream": "^2.1.2"
   }
 }
